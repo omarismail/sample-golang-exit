@@ -62,7 +62,10 @@ func main() {
 		}
 	}()
 
-	time.Sleep(60 * time.Second)
+	fmt.Println("Sleepin 10 seconds")
+	time.Sleep(10 * time.Second)
+	fmt.Println("Existing")
 	os.Exit(1)
+	fmt.Println("DONE")
 
 }
